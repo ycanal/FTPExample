@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Sources"/>
+	<classpathentry kind="con" path="WOFramework/ERExtensions"/>
+	<classpathentry kind="con" path="WOFramework/ERJars"/>
+	<classpathentry kind="con" path="WOFramework/ERPrototypes"/>
+	<classpathentry kind="con" path="WOFramework/JavaWOExtensions"/>
+	<classpathentry kind="con" path="WOFramework/WOOgnl"/>
+	<classpathentry kind="con" path="WOFramework/JavaEOAccess"/>
+	<classpathentry kind="con" path="WOFramework/JavaEOControl"/>
+	<classpathentry kind="con" path="WOFramework/JavaFoundation"/>
+	<classpathentry kind="con" path="WOFramework/JavaJDBCAdaptor"/>
+	<classpathentry kind="con" path="WOFramework/JavaWebObjects"/>
+	<classpathentry kind="con" path="WOFramework/JavaXML"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="Libraries/ftplet-api-1.0.6.jar"/>
+	<classpathentry kind="lib" path="Libraries/ftpserver-core-1.0.6.jar"/>
+	<classpathentry kind="lib" path="Libraries/mina-core-2.0.4.jar"/>
+	<classpathentry kind="con" path="WOFramework/MySQLPlugIn"/>
+	<classpathentry kind="lib" path="Libraries/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

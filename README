@@ -1,0 +1,7 @@
+generate the keystore with:
+ keytool -genkey -keystore /tmp/keystore.jks
+ (change the path in Application.java if you generate it womewhere else)
+
+
+you can find the apache FTP server here:
+ http://mina.apache.org/ftpserver/downloads.html

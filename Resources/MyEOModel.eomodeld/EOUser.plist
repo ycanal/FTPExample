@@ -1,0 +1,14 @@
+{
+    attributes = (
+        {allowsNull = N; name = id; prototypeName = id; }, 
+        {columnName = login; name = login; prototypeName = varchar50; }, 
+        {columnName = password; name = password; prototypeName = varchar50; }
+    ); 
+    attributesUsedForLocking = (id, login, password); 
+    className = "your.app.eo.EOUser"; 
+    classProperties = (login, password); 
+    externalName = EOUser; 
+    fetchSpecificationDictionary = {}; 
+    name = EOUser; 
+    primaryKeyAttributes = (id); 
+}

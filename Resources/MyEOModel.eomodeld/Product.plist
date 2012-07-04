@@ -1,0 +1,15 @@
+{
+    attributes = (
+        {columnName = description; name = description; prototypeName = varchar50; }, 
+        {allowsNull = N; name = id; prototypeName = id; }, 
+        {columnName = name; name = name; prototypeName = varchar50; }, 
+        {columnName = ref; name = ref; prototypeName = varchar50; }
+    ); 
+    attributesUsedForLocking = (description, id, name, ref); 
+    className = "your.app.eo.Product"; 
+    classProperties = (description, name, ref); 
+    externalName = Product; 
+    fetchSpecificationDictionary = {}; 
+    name = Product; 
+    primaryKeyAttributes = (id); 
+}

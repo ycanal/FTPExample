@@ -1,0 +1,31 @@
+{
+    EOModelVersion = "2.1"; 
+    adaptorName = JDBC; 
+    connectionDictionary = {
+        URL = "jdbc:mysql://localhost/wowodc?capitalizeTypenames=true"; 
+        driver = "org.gjt.mm.mysql.Driver"; 
+        password = "WOWODC_PASS"; 
+        username = "WOWODC_USER"; 
+    }; 
+    entities = (
+        {className = "your.app.eo.EOUser"; name = EOUser; }, 
+        {className = "your.app.eo.Product"; name = Product; }
+    ); 
+    userInfo = {
+        "_EntityModeler" = {
+            activeDatabaseConfigName = Default; 
+            databaseConfigs = {
+                Default = {
+                    adaptorName = JDBC; 
+                    connectionDictionary = {
+                        URL = "jdbc:mysql://localhost/wowodc?capitalizeTypenames=true"; 
+                        driver = "org.gjt.mm.mysql.Driver"; 
+                        password = "WOWODC_PASS"; 
+                        username = "WOWODC_USER"; 
+                    }; 
+                    prototypeEntityName = EOJDBCMySQLPrototypes; 
+                }; 
+            }; 
+        }; 
+    }; 
+}
