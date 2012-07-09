@@ -1,6 +1,6 @@
 generate the keystore with:
  keytool -genkey -keystore /tmp/keystore.jks
- (change the path in Application.java if you generate it womewhere else)
+ (change the path in Application.java if you generate it somewhere else)
 
 
 you can find the apache FTP server here:
